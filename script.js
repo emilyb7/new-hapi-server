@@ -2,8 +2,6 @@
 
 const fs = require('fs');
 
-//const directory = process.env.PWD;
-
 // fs.writeFile("hello.txt", "hello", {}, function() {
 //   console.log("done");
 // });
@@ -24,4 +22,4 @@ const getFiles = (dirs, list = []) => {
   });
 }
 
-getFiles(__dirname);
+getFiles([process.env.PWD]);
