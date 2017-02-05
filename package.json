@@ -2,7 +2,7 @@
   "name": "create-hapi-server",
   "version": "1.0.0",
   "description": "create a new hapi server",
-  "main": "index.js",
+  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +10,8 @@
     "hapi"
   ],
   "author": "emily",
+  "bin": {
+    "get-file-names": "script.js"
+  },
   "license": "ISC"
 }
